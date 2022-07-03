@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
             },
             child: Container(
               alignment: Alignment.center,
-              margin: EdgeInsets.symmetric(
+              margin: const EdgeInsets.symmetric(
                 horizontal: 12.0,
                 vertical: 8.0,
               ),
@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                 color: Colors.pinkAccent,
                 borderRadius: BorderRadius.circular(12.0),
               ),
-              child: Text(
+              child: const Text(
                 "CALCULAR",
                 style: TextStyle(
                   color: Colors.white,

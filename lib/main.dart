@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_codigo_setstate/status_general_page.dart';
 import 'home_page.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'SetStateApp',
-      home: HomePage(),
+      home: StatusGeneralPage(),
     );
   }
 }
